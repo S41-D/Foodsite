@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(229, 250, 208);
+    
+}
+
+.navbar-light, .bg-light {
+    background-color: rgb(206, 247, 165) !important; 
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+    height: 28rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about {
+    margin: 1.4em;
+    text-align: center;
+}
+
+.about-text{
+    margin: 1em;
+}
+
+.profile{
+    margin: 3em;
+}
+
+footer {
+    background-color: rgb(206, 247, 165);
+    margin-top: 1em;
+    
+}
+
+.bottom-foot {
+    
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 1em;
+    flex-basis: 0;
+}
+
+.closing {
+    background-color: rgb(198, 255, 140);
+    text-align: center;
+    padding: 10px;
+}
+
+.foot-nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+.foot-nav ul li a {
+    color: rgb(0, 0, 0);
+}
+
+.foot-nav ul li a  :hover{
+    color: rgb(61, 61, 61) !important;
+}
+
+/* this for the cursive logo/brand font */
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+}
+
+.brandi{
+    font-family: 'Pacifico', cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
